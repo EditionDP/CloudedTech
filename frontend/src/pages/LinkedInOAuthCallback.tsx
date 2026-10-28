@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 
 type CallbackStatus = 'processing' | 'delivered' | 'error'
 
-const LOCAL_ORIGIN = 'http://localhost:5174'
+const LOCAL_ORIGIN = window.location.origin
 
 export default function LinkedInOAuthCallback() {
   const [status, setStatus] = useState<CallbackStatus>('processing')

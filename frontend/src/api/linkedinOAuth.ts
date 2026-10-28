@@ -1,6 +1,6 @@
 import { apiRequest } from './client'
 
-const CALLBACK_ORIGIN = 'http://localhost:5174'
+const CALLBACK_ORIGIN = window.location.origin
 const CALLBACK_TYPE = 'CLOUDEDTECH_LINKEDIN_OAUTH_CALLBACK'
 
 type AuthorizationResponse = {
