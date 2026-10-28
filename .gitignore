@@ -1,0 +1,132 @@
+# Entornos virtuales
+venv/
+env/
+.env
+.venv/
+
+# Archivos de caché y compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Variables de entorno
+.env
+
+# Archivos de Jupyter
+.ipynb_checkpoints/
+
+# Base de datos local
+# (Descomenta la siguiente línea si no quieres subir la DB a GitHub)
+# communitylab.db 
+
+# Salidas generadas
+# (Descomenta la siguiente línea si no quieres subir el JSON de resultados)
+# resultados_kpis.json
+
+# Base de datos del proyecto y sus respaldos
+*.db
+*.db.respaldo_*
+
+# Local Netlify folder
+.netlify
+
+# CloudEdTech - archivos locales y generados
+backend/generated_content_images/
+backups/
+*.bak_*
+*.bak-*
+*.bak_paso*
+*.backup-*
+*.backup_*
+*.zip
+\n# Credenciales privadas webhooks CloudEdTech\n**/comunidad_demo_webhooks.json\n
+# Estado local de participantes virtuales
+**/comunidad_demo_participantes.json
+
+# === CloudEdTech: exclusiones de despliegue ===
+
+# Credenciales y configuraciones locales
+.env
+.env.*
+!.env.example
+!.env.*.example
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.*.example
+
+# Bases de datos locales y respaldos
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Claves y certificados privados
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Entornos y dependencias
+**/.venv/
+**/venv/
+**/node_modules/
+**/__pycache__/
+**/.pytest_cache/
+
+# Compilaciones
+**/dist/
+**/build/
+
+# Respaldos y archivos historicos
+**/_respaldos_desarrollo/
+**/respaldos/
+**/*backup*
+**/*Backup*
+**/*.bak
+**/*.pre-*
+**/*.pre_*
+**/*.paso*.bak
+**/*_paso*_backup.*
+**/*_backup_*
+**/*_runtime.log
+**/*_runtime_error.log
+
+# Registros
+**/logs/
+**/*.log
+**/*.out.log
+**/*.err.log
+
+# Datos operativos locales
+motor-ia/comunidad_demo_webhooks.json
+motor-ia/comunidad_demo_publicacion_config.json
+motor-ia/paso_3151_envio_discord.json
+
+# CloudEdTech - documentos internos de trabajo
+/AGENTS.md
+/MEMORY.md
+
+# Archivos locales y temporales
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+**/*.bak
+**/*.log
+**/.env
+**/.env.*
+!**/.env.example
+**/_respaldos_desarrollo/
+**/respaldos/
+**/node_modules/
+**/.venv/
+**/__pycache__/
+
+# CloudEdTech - artefactos generados y datos locales
+/netlify-deploy-privacidad/
+/motor-ia/reportes/*.json
+/resultados_kpis.json

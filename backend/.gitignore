@@ -1,0 +1,33 @@
+# Variables de entorno / secretos
+.env
+.env.*
+!.env.example
+
+# Entorno virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / herramientas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Respaldos locales con posibles credenciales
+_respaldos_desarrollo/
+
+# Credenciales cifradas de LinkedIn
+linkedin_oauth_tokens.db
+linkedin_oauth_tokens.db-*

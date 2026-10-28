@@ -1,0 +1,13 @@
+langchain
+langchain-groq
+langchain-core
+langchain-google-genai
+pydantic
+python-dotenv
+streamlit
+discord.py
+
+fastapi
+uvicorn[standard]
+psycopg2-binary>=2.9,<3
+google-cloud-storage==3.17.1

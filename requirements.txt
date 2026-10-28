@@ -1,0 +1,10 @@
+langchain
+langchain-groq
+langchain-core
+langchain-google-genai
+pydantic
+python-dotenv
+streamlit
+discord.py
+fastapi
+uvicorn
